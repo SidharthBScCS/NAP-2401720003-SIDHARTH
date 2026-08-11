@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"newageprogramming/utility"
+)
 
 func main() {
-	fmt.Println("Hello World!!")
+	utility.Calculator()
 }

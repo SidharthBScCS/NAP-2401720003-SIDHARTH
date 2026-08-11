@@ -1,8 +1,8 @@
-package main
+package utility
 
 import "fmt"
 
-func calculator() {
+func Calculator() {
 	var a int = 10
 	var b int = 20
 	fmt.Println("Addition: ", a, "+", b, "=", a+b)

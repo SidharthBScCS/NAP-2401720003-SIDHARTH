@@ -1,8 +1,8 @@
-package main
+package utility
 
 import "fmt"
 
-func greatersmaller() {
+func GreaterSmaller() {
 	var a int = 20
 	var b int = 22
 

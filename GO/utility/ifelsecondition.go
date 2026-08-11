@@ -1,8 +1,8 @@
-package main
+package utility
 
 import "fmt"
 
-func ifelsecondition() {
+func IfElseCondition() {
 	var score int = 89
 
 	if score >= 60 {
