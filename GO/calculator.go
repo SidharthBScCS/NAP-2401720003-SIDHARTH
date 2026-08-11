@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func calculator() {
 	var a int = 10
 	var b int = 20
 	fmt.Println("Addition: ", a, "+", b, "=", a+b)

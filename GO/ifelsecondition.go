@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ifelsecondition() {
 	var score int = 89
 
 	if score >= 60 {
