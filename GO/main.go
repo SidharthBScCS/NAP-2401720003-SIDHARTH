@@ -1,9 +1,8 @@
 package main
 
-import (
-	"newageprogramming/utility"
-)
+import "newageprogramming/utility"
 
 func main() {
-	utility.Calculator()
+	utility.TypeCovertion()
+
 }
