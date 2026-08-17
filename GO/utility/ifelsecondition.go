@@ -3,7 +3,9 @@ package utility
 import "fmt"
 
 func IfElseCondition() {
-	var score int = 89
+	var score int
+	fmt.Print("Enter your score: ")
+	fmt.Scan(&score)
 
 	if score >= 60 {
 		fmt.Println("PASS")
