@@ -26,13 +26,12 @@ func Calculator() {
 			var subtraction int = a - b
 			fmt.Printf("Subtraction %d \n", subtraction)
 
-			if a == 0 {
-				fmt.Println("Division not possible with 0")
-			} else if b == 0 {
-				fmt.Println("Division is not possible with 0")
+			if b == 0 {
+				fmt.Println("Division with zero is not valid")
+			} else {
+				var division int = a / b
+				fmt.Printf("Division %d \n", division)
 			}
-			var division int = a / b
-			fmt.Printf("Division %d \n", division)
 		} else if choice == 2 {
 			var x float32
 			fmt.Print("Enter first float: ")
@@ -48,10 +47,8 @@ func Calculator() {
 			var sub float32 = x - y
 			fmt.Printf("Subtraction %f \n", sub)
 
-			if x == 0 {
-				fmt.Println("Division not possible with 0")
-			} else if y == 0 {
-				fmt.Println("Division is not possible with 0")
+			if y == 0 {
+				fmt.Println("Division with zero is not valid")
 			} else {
 				var div float32 = x / y
 				fmt.Printf("Division %f \n", div)
