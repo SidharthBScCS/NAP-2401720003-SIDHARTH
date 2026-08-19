@@ -1,8 +1,14 @@
 package main
 
-import "newageprogramming/utility"
+import (
+	"fmt"
+)
 
 func main() {
-	utility.Calculator()
-
+	for i, ch := range "Héllo" {
+		if i == 0 {
+			continue
+		}
+		fmt.Println(i, string(ch))
+	}
 }
