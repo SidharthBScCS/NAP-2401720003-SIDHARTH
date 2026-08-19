@@ -5,10 +5,7 @@ import (
 )
 
 func main() {
-	for i, ch := range "Héllo" {
-		if i == 0 {
-			continue
-		}
-		fmt.Println(i, string(ch))
+	for i := 0; i <= 5; i++ {
+		fmt.Println(i)
 	}
 }
