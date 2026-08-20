@@ -1,9 +1,10 @@
 package utility
 
-func MultipleReturnFunction(a, b int) (int, bool) {
-	if b == 0 {
-		return 0, false
-	} else {
-		return a / b, true
+func MultipleReturnFunction(a, b, c int) (int, string) {
+	var avg int = (a + b + c) / 3
+
+	if avg < 40 {
+		return avg, "Failed"
 	}
+	return avg, "Pass!!"
 }
