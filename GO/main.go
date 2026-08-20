@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"newageprogramming/utility"
 )
 
 func main() {
-	for i := 1; i <= 5; i++ {
-		fmt.Println(i)
-	}
+	var temp utility.Celsius = 35.67
+	fmt.Print(temp.ToFarehheit())
 }

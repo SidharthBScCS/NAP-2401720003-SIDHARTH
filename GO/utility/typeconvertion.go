@@ -2,9 +2,7 @@ package utility
 
 import "fmt"
 
-// import "fmt"
-
-func TypeCovertion() {
+func TypeConvertion() {
 
 	fmt.Println("Hello, Sidharth!")
 
