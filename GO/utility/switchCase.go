@@ -3,25 +3,26 @@ package utility
 import "fmt"
 
 func SwitchCase() {
-	// var day string
-	// fmt.Println("Enter the day: ")
-	// fmt.Scan(&day)
+	var day int
+	fmt.Print("Enter day number: ")
+	fmt.Scan(&day)
 
-	// switch day {
-	// case "Sat", "Sun":
-	// 	fmt.Println("Holiday!!!")
-	// default:
-	// 	fmt.Println("Working Day")
-	// }
-
-	var marks int
-	fmt.Println("Enter marks: ")
-	fmt.Scan(&marks)
-
-	switch {
-	case marks >= 50:
-		fmt.Println("Passed!!")
+	switch day {
+	case 1:
+		fmt.Println("Monday")
+	case 2:
+		fmt.Println("Tuesday")
+	case 3:
+		fmt.Println("Wednesday")
+	case 4:
+		fmt.Println("Thursday")
+	case 5:
+		fmt.Println("Friday")
+	case 6:
+		fmt.Println("Saturday")
+	case 7:
+		fmt.Println("Sunday")
 	default:
-		fmt.Println("Failed!!")
+		fmt.Println("Error")
 	}
 }
